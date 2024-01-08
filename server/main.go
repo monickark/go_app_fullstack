@@ -3,9 +3,10 @@ package main
 import (
 	"fmt"
 	"os"
-	// 	"server/routes"
-	// 	"github.com/gin-contrib/cors"
-	// 	"github.com/gin-gonic/gin"
+	"server/routes"
+
+	"github.com/gin-contrib/cors"
+	"github.com/gin-gonic/gin"
 )
 
 func main() {

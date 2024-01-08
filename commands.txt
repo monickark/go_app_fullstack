@@ -1,1 +1,9 @@
 go run main.go
+
+Create all files
+
+inside server folder
+    >> go mod tidy // add all the imports
+    >> go get github.com/gin-contrib/cors
+    >> go build main.go // build application
+    >> go run main.go
